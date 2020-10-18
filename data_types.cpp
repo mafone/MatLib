@@ -8,6 +8,7 @@ int main()
     char caracter; //1B = 8 bits    = 2^8 (256) informações [-128; 128]
     unsigned char caracter_u; //1B  = 8 bits = 2^8 (256) informações [0; 255]
     uint8_t inteiro8; //unsigned char 1B = 8 bits = 2^8 (256) informações
+    bool true_false; //1B = 8 bits = 2^8 (256) informações. 254 números são avaliados como true (1) e apenas o número 0 é avaliado como false.
     
     short inteiro_pequeno; //2B = 16 bits 2^16 (256) = 65536 informações
     unsigned short inteiro_pequeno_u; //2B = 16 bits
